@@ -189,18 +189,17 @@ values."
    ))
 
 (defun dotspacemacs/user-init ()
-  "Initialization function for user code.
-It is called immediately after `dotspacemacs/init'.  You are free to put any
-user code."
-)
+  ;;Initialization function for user code.
+  ;;It is called immediately after `dotspacemacs/init'.  You are free to put any
+  ;;user code."
+  )
 
 (defun dotspacemacs/user-config ()
-  "Configuration function for user code.
- This function is called at the very end of Spacemacs initialization after
-layers configuration. You are free to put any user code."
+  ;;Configuration function for user code.
+  ;;This function is called at the very end of Spacemacs initialization after
+  ;;layers configuration. You are free to put any user code."
   (global-linum-mode)
-  (setq powerline-default-separator 'nil)
-)
+  (setq powerline-default-separator 'nil))
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
