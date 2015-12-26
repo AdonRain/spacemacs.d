@@ -3,9 +3,9 @@
 ;; It must be stored in your home directory.
 
 (defun dotspacemacs/layers ()
-  "Configuration Layers declaration.
-You should not put any user code in this function besides modifying the variable
-values."
+  ;;Configuration Layers declaration.
+  ;;You should not put any user code in this function besides modifying the variable
+  ;;values.
   (setq-default
    ;; Base distribution to use. This is a layer contained in the directory
    ;; `+distribution'. For now available distributions are `spacemacs-base'
@@ -191,13 +191,13 @@ values."
 (defun dotspacemacs/user-init ()
   ;;Initialization function for user code.
   ;;It is called immediately after `dotspacemacs/init'.  You are free to put any
-  ;;user code."
+  ;;user code.
   )
 
 (defun dotspacemacs/user-config ()
   ;;Configuration function for user code.
   ;;This function is called at the very end of Spacemacs initialization after
-  ;;layers configuration. You are free to put any user code."
+  ;;layers configuration. You are free to put any user code.
   (global-linum-mode)
   (setq powerline-default-separator 'nil))
 
