@@ -26,6 +26,7 @@
      ;; auto-completion
      ;; better-defaults
      emacs-lisp
+     javascript
      ;; git
      ;; markdown
      ;; org
@@ -49,11 +50,11 @@
    dotspacemacs-delete-orphan-packages t))
 
 (defun dotspacemacs/init ()
-  "Initialization function.
-This function is called at the very startup of Spacemacs initialization
-before layers configuration.
-You should not put any user code in there besides modifying the variable
-values."
+  ;;Initialization function.
+  ;;This function is called at the very startup of Spacemacs initialization
+  ;;before layers configuration.
+  ;;You should not put any user code in there besides modifying the variable
+  ;;values.
   ;; This setq-default sexp is an exhaustive list of all the supported
   ;; spacemacs settings.
   (setq-default
@@ -193,13 +194,12 @@ values."
   ;;It is called immediately after `dotspacemacs/init'.  You are free to put any
   ;;user code.
   )
-
 (defun dotspacemacs/user-config ()
   ;;Configuration function for user code.
   ;;This function is called at the very end of Spacemacs initialization after
   ;;layers configuration. You are free to put any user code.
-  (global-linum-mode)
-  (setq powerline-default-separator 'nil))
+  (setq powerline-default-separator 'nil)
+  (global-linum-mode))
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
