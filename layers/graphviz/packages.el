@@ -1,5 +1,5 @@
 (defconst graphviz-packages
-  '((graphviz-dot-mode :location (recipe :fetcher github :repo "luxbock/graphviz-dot-mode"))))
+  '(graphviz-dot-mode :location (recipe :fetcher github :repo "luxbock/graphviz-dot-mode")))
 
 (defun graphviz/init-graphviz-dot-mode ()
   (use-package graphviz-dot-mode
